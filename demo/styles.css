@@ -1,0 +1,42 @@
+html {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/background.jpg');
+  min-height: 100%;
+}
+body {
+  background: none;
+}
+.semiBG {
+  background: rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+.headingFont {
+  font-family: 'Muli';
+}
+.bodyFont {
+  font-family: 'Lato';
+}
+.watchNow {
+  font-size: 1.5rem;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color 500ms ease;
+  -moz-transition: color 500ms ease;
+  -ms-transition: color 500ms ease;
+  -o-transition: color 500ms ease;
+  transition: color 500ms ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #018989;
+}
+a.watchNow:hover {
+  color: #018989;
+}
+.border-black {
+  border-color: black !important;
+}
